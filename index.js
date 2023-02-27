@@ -14,4 +14,6 @@ const port = process.env.PORT||5000
 app.listen(port , () => {
     console.log(`The app listen on port ${port}`)
 })
+
+//database connection
 testSequelizeConnection();
